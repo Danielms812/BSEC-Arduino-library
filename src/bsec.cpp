@@ -199,7 +199,7 @@ bool Bsec::run(int64_t timeMilliseconds)
 
     if (callTimeMs >= nextCall)
     {
-        bsec_init();
+        //bsec_init();
 
         if (validBsecState)
         {
